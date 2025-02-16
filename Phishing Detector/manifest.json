@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Phishing Detector",
+    "version": "1.0",
+    "description": "Detects phishing websites",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
